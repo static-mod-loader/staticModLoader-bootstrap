@@ -1,54 +1,57 @@
-[08Sept2023 17:35:48.998] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\oxol\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.1.46, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[08Sept2023 17:35:49.011] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.7 by Microsoft; OS Windows 10 arch amd64 version 10.0
-[08Sept2023 17:35:49.361] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[08Sept2023 17:35:49.549] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[08Sept2023 17:35:49.811] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[08Sept2023 17:35:50.029] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) Iris(R) Xe Graphics GL version 4.6.0 - Build 30.0.101.1660, Intel
-[08Sept2023 17:35:50.065] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/oxol/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[08Sept2023 17:35:50.929] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\oxol\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.46\277ff7c640f0c8d702893a029a44ee29ef0e35b2\javafmllanguage-1.20.1-47.1.46.jar is missing mods.toml file
-[08Sept2023 17:35:50.934] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\oxol\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.46\83f03e5e0a512e4d5d3bf75049acf7fa9fd2c685\lowcodelanguage-1.20.1-47.1.46.jar is missing mods.toml file
-[08Sept2023 17:35:50.937] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\oxol\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.46\44aba90404009f73b7da0dbd6db9f5c3296351fe\mclanguage-1.20.1-47.1.46.jar is missing mods.toml file
-[08Sept2023 17:35:50.943] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\oxol\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.46\564c0c5cf812168aaa92f968bc10a4572636d129\fmlcore-1.20.1-47.1.46.jar is missing mods.toml file
-[08Sept2023 17:35:51.175] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[08Sept2023 17:35:53.554] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\oxol\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
-[08Sept2023 17:35:59.597] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 231 milliseconds
-[08Sept2023 17:36:02.714] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/oxol/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.46_mapped_official_1.20.1/forge-1.20.1-47.1.46_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[08Sept2023 17:36:02.715] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/oxol/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.46_mapped_official_1.20.1/forge-1.20.1-47.1.46_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[08Sept2023 17:36:02.750] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[08Sept2023 17:36:02.761] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[08Sept2023 17:36:02.961] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[08Sept2023 17:36:03.418] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.1.46, for MC 1.20.1 with MCP 20230612.114412
-[08Sept2023 17:36:03.420] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.1.46 Initialized
-[08Sept2023 17:36:04.910] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [examplemod]
-[08Sept2023 17:36:05.322] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[08Sept2023 17:36:05.385] [Worker-Main-9/INFO] [com.example.examplemod.ExampleMod/]: HELLO FROM COMMON SETUP
-[08Sept2023 17:36:05.385] [Worker-Main-9/INFO] [com.example.examplemod.ExampleMod/]: DIRT BLOCK >> minecraft:dirt
-[08Sept2023 17:36:05.386] [Worker-Main-9/INFO] [com.example.examplemod.ExampleMod/]: The magic number is... 42
-[08Sept2023 17:36:05.387] [Worker-Main-9/INFO] [com.example.examplemod.ExampleMod/]: ITEM >> iron_ingot
-[08Sept2023 17:36:05.547] [Worker-Main-3/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[08Sept2023 17:36:05.557] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[08Sept2023 17:36:05.732] [Worker-Main-8/INFO] [com.example.examplemod.ExampleMod/]: HELLO FROM CLIENT SETUP
-[08Sept2023 17:36:05.733] [Worker-Main-8/INFO] [com.example.examplemod.ExampleMod/]: MINECRAFT NAME >> Dev
-[08Sept2023 17:36:06.735] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/example_block.json' missing model for variant: 'examplemod:example_block#'
-[08Sept2023 17:36:06.744] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'examplemod:example_block#inventory' referenced from: examplemod:example_block#inventory: java.io.FileNotFoundException: examplemod:models/item/example_block.json
-[08Sept2023 17:36:06.744] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'examplemod:example_item#inventory' referenced from: examplemod:example_item#inventory: java.io.FileNotFoundException: examplemod:models/item/example_item.json
-[08Sept2023 17:36:06.804] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 47.1.46 Target: null
-[08Sept2023 17:36:09.066] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[08Sept2023 17:36:09.067] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[08Sept2023 17:36:09.129] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Razer Barracuda X 2.4)
-[08Sept2023 17:36:09.131] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[08Sept2023 17:36:09.279] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[08Sept2023 17:36:09.449] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[08Sept2023 17:36:09.457] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[08Sept2023 17:36:09.467] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[08Sept2023 17:36:09.476] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[08Sept2023 17:36:09.544] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[08Sept2023 17:36:09.547] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[08Sept2023 17:36:09.549] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[08Sept2023 17:36:09.552] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[08Sept2023 17:36:10.719] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[08Sept2023 17:36:11.782] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[08Sept2023 17:36:11.814] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[08Sept2023 17:36:11.818] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[08Sept2023 17:36:12.502] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[08Sept2023 17:36:19.545] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[08Sept2023 23:10:03.204] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, /home/oxol/.gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 47.1.46, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[08Sept2023 23:10:03.210] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.8 by Debian; OS Linux arch amd64 version 6.1.0-11-amd64
+[08Sept2023 23:10:03.364] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[08Sept2023 23:10:03.484] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[08Sept2023 23:10:03.597] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[08Sept2023 23:10:03.726] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/oxol/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23116!/ Service=ModLauncher Env=CLIENT
+[08Sept2023 23:10:03.734] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Mesa Intel(R) Graphics (ADL GT2) GL version 4.6 (Core Profile) Mesa 22.3.6, Intel
+[08Sept2023 23:10:04.078] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/oxol/.gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.20.1-47.1.46/277ff7c640f0c8d702893a029a44ee29ef0e35b2/javafmllanguage-1.20.1-47.1.46.jar is missing mods.toml file
+[08Sept2023 23:10:04.080] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/oxol/.gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.20.1-47.1.46/83f03e5e0a512e4d5d3bf75049acf7fa9fd2c685/lowcodelanguage-1.20.1-47.1.46.jar is missing mods.toml file
+[08Sept2023 23:10:04.083] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/oxol/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.20.1-47.1.46/44aba90404009f73b7da0dbd6db9f5c3296351fe/mclanguage-1.20.1-47.1.46.jar is missing mods.toml file
+[08Sept2023 23:10:04.084] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/oxol/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.20.1-47.1.46/564c0c5cf812168aaa92f968bc10a4572636d129/fmlcore-1.20.1-47.1.46.jar is missing mods.toml file
+[08Sept2023 23:10:04.170] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[08Sept2023 23:10:05.316] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, /home/oxol/.gradle/caches/forge_gradle/assets, --assetIndex, 5]
+[08Sept2023 23:10:08.867] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 92 milliseconds
+[08Sept2023 23:10:10.791] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/oxol/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.46_mapped_official_1.20.1/forge-1.20.1-47.1.46_mapped_official_1.20.1-recomp.jar%23181!/assets/.mcassetsroot' uses unexpected schema
+[08Sept2023 23:10:10.792] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/oxol/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.46_mapped_official_1.20.1/forge-1.20.1-47.1.46_mapped_official_1.20.1-recomp.jar%23181!/data/.mcassetsroot' uses unexpected schema
+[08Sept2023 23:10:10.802] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08Sept2023 23:10:10.807] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[08Sept2023 23:10:10.876] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[08Sept2023 23:10:11.091] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.1.46, for MC 1.20.1 with MCP 20230612.114412
+[08Sept2023 23:10:11.093] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.1.46 Initialized
+[08Sept2023 23:10:11.149] [modloading-worker-0/INFO] [com.example.examplemod.Bootstrap/]: [staticModloader] BOOTSTRAP INIT
+[08Sept2023 23:10:11.149] [modloading-worker-0/INFO] [com.example.examplemod.Bootstrap/]: [staticModloader] Working dir is: /home/oxol/Documents/GitHub/staticModLoader-bootstrap/run
+[08Sept2023 23:10:11.149] [modloading-worker-0/INFO] [com.example.examplemod.Bootstrap/]: [staticModloader] lib name == libstatic_modloader__amd64-Linux
+[08Sept2023 23:10:13.025] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [examplemod]
+[08Sept2023 23:10:13.169] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[08Sept2023 23:10:13.203] [Worker-Main-2/INFO] [com.example.examplemod.ExampleMod/]: HELLO FROM COMMON SETUP
+[08Sept2023 23:10:13.204] [Worker-Main-2/INFO] [com.example.examplemod.ExampleMod/]: DIRT BLOCK >> minecraft:dirt
+[08Sept2023 23:10:13.204] [Worker-Main-2/INFO] [com.example.examplemod.ExampleMod/]: The magic number is... 42
+[08Sept2023 23:10:13.205] [Worker-Main-2/INFO] [com.example.examplemod.ExampleMod/]: ITEM >> iron_ingot
+[08Sept2023 23:10:13.264] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[08Sept2023 23:10:13.302] [Worker-Main-9/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[08Sept2023 23:10:13.437] [Worker-Main-11/INFO] [com.example.examplemod.ExampleMod/]: HELLO FROM CLIENT SETUP
+[08Sept2023 23:10:13.438] [Worker-Main-11/INFO] [com.example.examplemod.ExampleMod/]: MINECRAFT NAME >> Dev
+[08Sept2023 23:10:14.274] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 47.1.46 Target: null
+[08Sept2023 23:10:14.365] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'examplemod:blockstates/example_block.json' missing model for variant: 'examplemod:example_block#'
+[08Sept2023 23:10:14.373] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'examplemod:example_block#inventory' referenced from: examplemod:example_block#inventory: java.io.FileNotFoundException: examplemod:models/item/example_block.json
+[08Sept2023 23:10:14.373] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'examplemod:example_item#inventory' referenced from: examplemod:example_item#inventory: java.io.FileNotFoundException: examplemod:models/item/example_item.json
+[08Sept2023 23:10:16.003] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[08Sept2023 23:10:16.004] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[08Sept2023 23:10:16.049] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device Razer Barracuda X 2.4 Analog Stereo
+[08Sept2023 23:10:16.050] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[08Sept2023 23:10:16.149] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[08Sept2023 23:10:16.216] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[08Sept2023 23:10:16.218] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[08Sept2023 23:10:16.221] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[08Sept2023 23:10:16.224] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[08Sept2023 23:10:16.242] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[08Sept2023 23:10:16.243] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[08Sept2023 23:10:16.244] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[08Sept2023 23:10:16.245] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[08Sept2023 23:10:16.516] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[08Sept2023 23:10:16.560] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[08Sept2023 23:10:16.565] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[08Sept2023 23:10:16.566] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[08Sept2023 23:10:17.399] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[08Sept2023 23:10:30.710] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

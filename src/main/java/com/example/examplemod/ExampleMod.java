@@ -29,6 +29,9 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
 
+import com.example.examplemod.Bootstrap;
+import com.example.examplemod.StaticLoaderProtocol;
+
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(ExampleMod.MODID)
 public class ExampleMod
@@ -63,6 +66,7 @@ public class ExampleMod
 
     public ExampleMod()
     {
+        
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         // Register the commonSetup method for modloading
@@ -83,6 +87,9 @@ public class ExampleMod
 
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+        
+        Bootstrap bootstrap = new Bootstrap();
+        bootstrap.init();
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
